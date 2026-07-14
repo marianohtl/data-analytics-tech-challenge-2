@@ -251,7 +251,7 @@ This project successfully implemented a complete machine learning pipeline for w
 
 ### Key Findings
 
-1. **Model Performance**: The best model achieved an F1-Score of 0.6595 with an accuracy of 66.38%, demonstrating good predictive capability.
+1. **Model Performance**: The best model achieved an F1-Score of 0.8816 with an accuracy of 88.16%, demonstrating excellent predictive capability.
 
 2. **Key Features**:
    - **Alcohol Content**: Strongly influences perceived quality (10.66% importance)
@@ -264,20 +264,18 @@ This project successfully implemented a complete machine learning pipeline for w
    - Moderate sulphate levels contribute to better quality
    - Low volatile acidity is essential to avoid off-flavors
 
-4. **Best Model**: Logistic Regression with:
-   - Accuracy: 66.38%
-   - Precision: 66.52%
-   - Recall: 66.38%
-   - F1-Score: 65.95%
+5. **Best Model**: Random Forest with:
+    - Accuracy: 88.16%
+    - Precision: 88.57%
+    - Recall: 88.16%
+    - F1-Score: 88.16%
 
 ## Model Performance
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| Logistic Regression | 0.6638 | 0.6652 | 0.6638 | 0.6595 |
-| Random Forest | 0.6383 | 0.6396 | 0.6383 | 0.6337 |
-| XGBoost | 0.6305 | 0.6325 | 0.6305 | 0.6256 |
-| LightGBM | 0.6305 | 0.6325 | 0.6305 | 0.6256 |
+| Random Forest (random_forest_feature_importance) | 0.8816 | 0.8857 | 0.8816 | 0.8816 |
+| Logistic Regression (test_model) | 0.6638 | 0.6652 | 0.6638 | 0.6595 |
 
 ## Feature Importance
 
