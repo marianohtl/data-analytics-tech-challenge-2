@@ -1,0 +1,42 @@
+Wine Quality EDA Analysis Summary
+
+Dataset Overview
+- Total Samples: 1143
+- Features: 13
+- Target: Quality (3-9), Binary: {0: 984, 1: 159}
+
+Key Correlations
+- fixed acidity: 0.12
+- volatile acidity: -0.41
+- citric acid: 0.24
+- residual sugar: 0.02
+- chlorides: -0.12
+- free sulfur dioxide: -0.06
+- total sulfur dioxide: -0.18
+- density: -0.18
+- pH: -0.05
+- sulphates: 0.26
+- alcohol: 0.48
+- quality: 1.00
+- Id: 0.07
+
+Outlier Statistics (IQR Method)
+- fixed acidity: 44 outliers
+- volatile acidity: 14 outliers
+- citric acid: 1 outliers
+- residual sugar: 110 outliers
+- chlorides: 77 outliers
+- free sulfur dioxide: 18 outliers
+- total sulfur dioxide: 40 outliers
+- density: 36 outliers
+- pH: 20 outliers
+- sulphates: 43 outliers
+- alcohol: 12 outliers
+- quality: 22 outliers
+- Id: 0 outliers
+
+Recommendations
+1. Use class weights to handle imbalance
+2. Prioritize features with highest correlation
+3. Consider outlier treatment for features with many outliers
+4. Standardize features before modeling
