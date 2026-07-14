@@ -15,3 +15,8 @@ wheels/
 
 todolist.md
 tasks
+# Project documentation and planning files (local only)
+CORRECTION_PLAN.md
+TASK*_SUMMARY.md
+TASK*_COMPLETE.md
+QUICK_REFERENCE.md
